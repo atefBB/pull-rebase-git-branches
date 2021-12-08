@@ -1,13 +1,14 @@
 {
-  "name": "rebase-branches",
+  "name": "pull-rebase-branches",
   "version": "1.0.1",
-  "description": "cli for rebasing a list of branches",
+  "description": "cli for pulling & rebasing a list of branches",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "pull",
     "rebase",
     "branches",
     "git"
@@ -21,6 +22,6 @@
     "shelljs": "^0.8.4"
   },
   "bin": {
-    "rebase-branches": "./index.js"
+    "pull-rebase-branches": "./index.js"
   }
 }
