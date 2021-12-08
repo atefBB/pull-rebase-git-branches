@@ -25,16 +25,16 @@ async function run() {
     const answers = await askQuestions();
     const { BRANCHES, MAIN_BRANCH } = answers;
 
+    if (!shell.which("git")) {
+        shell.echo(
+            "Sorry, this script requires git to be installed on your machine."
+        );
+        shell.exit(1);
+    }
+
     BRANCHES.split(" ").forEach((branch) => {
-        if (!shell.which("git")) {
-            shell.echo(
-                "Sorry, this script requires git to be installed on your machine."
-            );
-            shell.exit(1);
-        } else {
-            shell.exec(`git switch ${branch}`);
-            shell.exec(`git pull --rebase origin ${MAIN_BRANCH}`);
-        }
+        shell.exec(`git switch ${branch}`);
+        shell.exec(`git pull --rebase origin ${MAIN_BRANCH}`);
     });
 
     console.log(chalk.white.bgGreen.bold(`Done!`));
