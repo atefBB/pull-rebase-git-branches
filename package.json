@@ -4,6 +4,10 @@
   "description": "cli for pulling & rebasing a list of branches",
   "main": "index.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atefBB/pull-rebase-git-branches"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
