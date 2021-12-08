@@ -1,6 +1,6 @@
 {
   "name": "rebase-branches",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "cli for rebasing a list of branches",
   "main": "index.js",
   "type": "module",
