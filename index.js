@@ -50,9 +50,8 @@ async function run() {
             shell.exit(1);
         } else {
             shell.exec(`git switch ${branch}`)
+            shell.exec(`git pull --rebase origin ${MAIN_BRANCH}`)
         }
-
-        console.log(`git pull --rebase origin ${MAIN_BRANCH}`)
     });
 
     console.log(
