@@ -1,6 +1,6 @@
 {
   "name": "pull-rebase-branches",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "cli for pulling & rebasing a list of branches",
   "main": "index.js",
   "type": "module",
