@@ -1,6 +1,6 @@
 {
   "name": "pull-rebase-branches",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "cli for pulling & rebasing a list of branches",
   "author": "Atef Ben Ali",
   "license": "MIT",
