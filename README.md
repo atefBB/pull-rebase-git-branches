@@ -11,4 +11,4 @@ Automating `pull rebase git branches`
 <code>pull-rebase-branches</code></p>
 <p>You will be asked for the list of branches to rebase, if they are more then one, separate them with space.</p>
 
-<p>When occur conflict: please resolve the conflict yourself.</p>
+<p><strong>Advice</strong>: When conflicts occurs: please resolve them yourself. <i>Don't blame anybody!</i></p>
